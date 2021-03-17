@@ -1,0 +1,343 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    background-color: rgb(242, 255, 254);
+}
+
+header {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 7vh;
+    align-items: center;
+    align-self: center;
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px black;
+}
+
+#social {
+    width: 30%;
+    text-align: center;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-instagram {
+    color: #F56040;
+}
+
+.fa-google-plus {
+    color: brown;
+}
+
+#social #sec1 a {
+    margin: 10px;
+    font-size: 30px;
+}
+
+#social #sec1 a:hover {
+    color: brown;
+}
+
+nav {
+    width: 70%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+    color: rgb(15, 15, 63);
+}
+
+nav a:hover {
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+
+main {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+main #top h2 {
+    width: 91%;
+    margin-top: 4%;
+    height: 5vh;
+    line-height: 1.5;
+    background-color: rgb(209, 208, 208);
+    color: brown;
+    text-align: left;
+    margin-left: 3%;
+    margin-left: 3%;
+    padding-left: 3%;
+    height: 6vh;
+}
+
+main #art1 #sec1 img {
+    opacity: 0.9;
+    cursor: pointer;
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    border-style: double;
+    border-color: brown;
+}
+
+main #art1 #sec1 img:hover {
+    opacity: 1;
+}
+
+main #art1 #sec2 h2 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+
+main #art1 #sec2 span {
+    color: brown;
+}
+
+main #art1 #sec2 h5 {
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+
+/* project start */
+
+main #project #mid {
+    width: 100%;
+}
+
+main #project #mid #sec1 {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main #project #mid #sec2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main #project #mid img {
+    border: 2px solid black;
+    width: 360px;
+    height: 240px;
+    opacity: 0.9;
+}
+
+main #project #mid img:hover {
+    opacity: 1;
+}
+
+
+/* project end */
+
+
+/* skill start */
+
+main #skill #mid {
+    margin-top: 1%;
+    text-align: left;
+    margin-left: 3%;
+    width: 100%;
+}
+
+
+/* progress bar */
+
+main #skill #mid .container {
+    background-color: rgb(192, 192, 192);
+    width: 94%;
+    border-radius: 50px;
+}
+
+main #skill #mid .skill {
+    margin-top: .5%;
+    margin-bottom: .5%;
+    background-color: rgb(96, 87, 224);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.c {
+    width: 90%;
+}
+
+.cpp {
+    width: 80%;
+}
+
+.java {
+    width: 50%;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 70%;
+}
+
+
+/* progress bar end */
+
+#contact-about {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-about #sec1 {
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 2%;
+    flex: 1;
+}
+
+#contact-about #sec2 {
+    margin-top: 0%;
+    margin-left: 2%;
+    border: 1px solid black;
+    flex: 1;
+}
+
+#contact-about #sec1 #mid input {
+    font-size: 15px;
+    width: 90%;
+    margin: 2px;
+    padding: 2px;
+}
+
+#contact-about #sec1 #mid input:last-child {
+    background-color: rgb(113, 117, 121);
+    width: 20%;
+    color: #ffffff;
+}
+
+#contact-about #sec1 #mid input:last-child:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#footer div {
+    margin-bottom: 1%;
+    background-color: rgb(63, 63, 63);
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    main #art2 {
+        flex-direction: column;
+    }
+    main #art1 #sec2 h2 {
+        font-size: 30px;
+        letter-spacing: 4px;
+        line-height: 50px;
+    }
+    main #art1 #sec2 h5 {
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+    main #art2 #top,
+    #botm {
+        font-size: 10px;
+    }
+    main #art2 #sec1,
+    #sec2,
+    #sec3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }
+    header {
+        box-shadow: 1px 1px 10px black;
+        height: 5vh;
+        margin-bottom: 15%;
+        line-height: 1.5;
+    }
+    nav a {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    #social #sec1 a {
+        margin: 4px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    #art1 img {
+        height: 200px;
+        width: 200px;
+        margin-top: -10%;
+    }
+    main #project #mid #sec1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main #project #mid #sec2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main #project #mid img {
+        margin-top: 2.5%;
+        border: 2px solid black;
+        width: 360px;
+        height: 240px;
+        opacity: 0.9;
+    }
+    #contact-about {
+        display: block;
+        width: 100%;
+        margin-left: 1%;
+    }
+    #contact-about #sec1 {
+        border: none;
+    }
+    #contact-about #sec2 {
+        border: none;
+    }
+    #contact-about p {
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}
